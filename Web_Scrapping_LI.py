@@ -9,6 +9,10 @@ import request ;
 from bs4 import BeautifulSoup;
 
 
+
+# install anaconda package
+
+
 os.getcwd()
 
 
