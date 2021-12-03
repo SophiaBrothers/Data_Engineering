@@ -27,3 +27,5 @@ request = requests.get(url)
 print(request.status_code) 
 
 # code 200 is good
+
+print(request.text)
