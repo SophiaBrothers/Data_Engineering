@@ -1,4 +1,6 @@
 # created: 12/2/2021
+# python 3.10
+# sublime text 4
 
 # status:  IN PROGRESS
 
@@ -17,8 +19,11 @@ from bs4 import BeautifulSoup
 print( os.getcwd() )
 
 
-url = 
+url = 'https://www.linkedin.com/mynetwork/invite-connect/connections/'
 
 
-requests = requests.get(url)
+request = requests.get(url)
 
+print(request.status_code) 
+
+# code 200 is good
